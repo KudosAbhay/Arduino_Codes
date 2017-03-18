@@ -1,3 +1,8 @@
+/* 
+ *  This code can be used to capture data from a Weighing Scale Machine over Arduino 
+ *  
+ */
+
 void setup() 
 {
   Serial.begin(9600);		//Connect your Weighing Machine over Arduino Serial
