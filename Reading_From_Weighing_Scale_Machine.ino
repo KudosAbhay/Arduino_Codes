@@ -10,7 +10,7 @@ void setup()
 
 void loop() 
 {
-  while(Serial.available())								//Check if Weighing Machine is available over the Serial port of Arduino
+  while(Serial.available())			//Check if Weighing Machine is available over the Serial port of Arduino
   {
     Serial.print((char)Serial.read());					//Print the Read Characters in CHARACTER Format rather than ASCII from the weighing scale
   }
