@@ -1,6 +1,5 @@
 /* 
  *  This code can be used to capture data from a Weighing Scale Machine over Arduino 
- *  
  */
 
 void setup() 
